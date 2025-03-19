@@ -67,7 +67,7 @@ hostname="#($SCRIPTS_PATH/hostname-widget.sh)"
 
 #+--- Bars LEFT ---+
 # Session name
-tmux set -g status-left "#[fg=${THEME[bblack]},bg=${THEME[blue]},bold] #{?client_prefix,󰠠 ,#[dim]󰤂 }#[bold,nodim]#S$hostname "
+tmux set -g status-left "#[fg=${THEME[bblack]},bg=${THEME[blue]},nobold] #{?client_prefix,󰠠 ,#[dim]󰤂 }#[nobold,nodim]#S$hostname "
 
 #+--- Windows ---+
 # Focused (active) window
